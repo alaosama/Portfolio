@@ -16,8 +16,8 @@ html {
 }
 
 p {
-/*   color: rgb(85, 85, 85);
-} */
+  color: rgb(85, 85, 85);
+}
 
 /* TRANSITION */
 
@@ -31,8 +31,6 @@ a,
 nav,
 .nav-links {
   display: flex;
-  position: relative;
-  background-color: rgb(255, 255, 255);
 }
 
 nav {
@@ -47,9 +45,8 @@ nav {
   font-size: 1.5rem;
 }
 
-
 a {
-  color: rgb(0, 0, 0);
+  color: black;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -216,7 +213,7 @@ section {
   height: 2rem;
 }
 
-/* /* BUTTONS */
+/* BUTTONS */
 
 .btn-container {
   display: flex;
@@ -237,7 +234,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-/* .btn-color-1:hover,
+.btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
 }
@@ -249,7 +246,7 @@ section {
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0); */
+  background: rgb(0, 0, 0);
 }
 
 .btn-color-2 {
@@ -260,7 +257,7 @@ section {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.btn-container { */
+.btn-container {
   gap: 1rem;
 }
 
